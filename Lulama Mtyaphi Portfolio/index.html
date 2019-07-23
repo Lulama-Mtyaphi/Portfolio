@@ -2,106 +2,89 @@
 <html>
 	 <head>
 	 	<meta charset="utf-8">
-	 	<meta name = "viewport" content="width=device-width">
-
+	 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 	<meta name= "description" content=" aspiring ux designer, beginner data analyst">
 	 	<meta name="author" content="Lulama Mtyaphi">
-		<title>Lulama Mtyaphi Portfolio | Home Page</title>
-		<link rel="stylesheet" href="./css/style.css">
+		<title>Lulama Mtyaphi Portfolio </title>
+		<link rel="stylesheet" href="style.css">
 	</head>
+
 	<body>
+
+		<div class ="container">
+			<nav class="desk">
+				<ul>
+					<li><a class="current" href="#">Home</a></li>
+					<li class="current"><a href="#About">About</a></li>
+					<li class="current"><a href="#Projects">Projects</a></li>
+					<li class="current"><a href="#Contact">Contact</a></li>
+				</ul>
+			</nav>
 		
-			<header>
-				<div class="container">
-					
-					<nav>
-					    <ul>
-							  <li class="current"><a href="index.html">HOME</a></li>
-							  <li><a href="C.V.html">C.V</a></li>
-							  <li><a href="#Projects.html">PROJECTS</a></li>
-							  <li><a href="#Contact.html">CONTACT</a></li>
-					    </ul>
-					</nav>
-				</div>
-	        </header>
+			<nav class="mob">
+				<ul>
+					<li><a class="current" href="#">Home</a></li>
+					<li class="current"><a href="#About">About</a></li>
+					<li class="current"><a href="#Projects">Projects</a></li>
+					<li class="current"><a href="#Contact">Contact</a></li>
+				</ul>
+			</nav>
 
-	     
-	     	<div class = "container"> 
-	     			<section id = "about">
-	     			<!--<div class="image" style="background-image: url(../images/taylor.jpg);"> -->
-	     				<div class ="face"> <img src="./images/lulama.jpg"> </div>
-	     				<img src="">
+			<div class="header"></div>
 
 
-	     				
-	     	   				 <p> <h2>Hi , My name is luu. See that picture up there. Thats me. Im an aspiring UX designer. I have basic Data Analytics knowledge and mostly drive. I Am amazing to work with and naturaly creative. Try me out and I can surely do great for you.
-	     	                 </h2> </p>
-				    	</div>			
-         	       	</section>
-
-        	
-         </div>
-
-         <div id ="cv"> 
-         	<div class = "container">
-         		<div class = "box">
-         			<h3>C.V</h3>
-         		</div>
-         	</div>
+		</div>
 
 
-         	<div class = "container">
-         		<div class = "box">
-         			<h3>Cover Letter</h3>
-         		</div>
-         	</div>
+
+		<div id="Home" >
+			<h1>LULAMA MTYAPHI</h1>
+			<h2>Aspiring UX Designer</h2>
+		</div>
+
+		<div id ="About" >
+			<h1>ABOUT</h1>
+
+			<div class ="face"> <img src="./images/lulama.png"> 
+			<h3>Hi, Im Luu. An aspiring UX Designer. I have Data analytics background and a passion for design. I connect well with people, after all everything revolves around the science of people.You cant create impacting and relevant design if you dont connect or atleast understand people. Long story short is I can create the product but more importantly I know how to create the right product for the right people.</h3></div>
+
+			
+			<div> <h3>If you would like to contact me directly feel free to use the contact form below or DM me on one of my social media platforms. Handles available below. If its my C.V you want to look at, just click on the download button <a href = "pdf downoad"> Here.</a> </h3>
+		    </div>
+        </div>
+        <a name="About"></a>
 
 
-	     	
 
-         <div id ="Projects">
-         	<div class = "container">
-         		<div class = "box">
-         			<h3>Excel Project</h3>
-         		</div>
-         	</div>
+		<div id = "Projects" >
+			<h1>PROJECTS</h1>
 
-         	<div class = "container">
-         		<div class = "box">
-         			<h3>SQL Project</h3>
-         		</div>
-         	</div>	
+			<div class ="power"> 
+			<img src="./images/Power.jpg"><h3>This is a project I did during my Data Analytics stages. The rquirments included analysing Data and visualising it in a manner that is easy for the next person to understand. Click <a href = "https://app.powerbi.com/groups/me/reports/82cc4e8a-00ea-4f2a-8916-16206387baaf?ctid=d0806ab9-d77b-4c43-a173-7ee6327dda8c" target="_blank"> Here.</a> to check out the final prouct(dashboard).
+			</h3></div>
 
-         	<div class = "container">
-         		<div class = "box">
-         			<h3>Power BI Project</h3>
-         		</div>
-         	</div>	
-
-         	<div class = "container">
-         		<div class = "box">
-         			<h3>Python Project</h3>
-         		</div>
-         	</div>	
-
-         </div>
-
-         <div id = "Contact">
-
-        <head>
-         	<title> Contact Form</title>
-         	<link rel="stylesheet" type="text/css" href="style.css">
-        </head>
-
-         <div>
-         	<h1>Contact Me For Any enquiries.</h1>
-         	<h2>Please allow 24 hours to recieve a responce.</h2>
-         </div>
-
-        
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br
+<br>			
+		</div>
+		<a name="Projects"></a>
 
 
-         	<div class ="contact-form">
+
+
+        <div id ="Contact">
+
+        	<h1>CONTACT</h1>
+
          		<form id="contact-form" method="post" action="">
 
          		<input type="text" name="name-surname" class="form-control" placeholder="Your name and surname" required><br>
@@ -114,20 +97,21 @@
 	         			<input type="submit" class="form-control submit" value="SEND MESSAGE">
 
          		</form>
+
+         	
+	 <div class = social><img src="./images/insta.png" width='50px'><img src="./images/twitter.png" width='50px'> <img src="./images/linked in.jpg" width='50px'></div> 
          		
-         	</div>
 
-         </div>
+        </div>
+        <a name="Contact"></a>
 
-         
-	        
 
-    </body>
 
-        <footer>
-        	<div class = "last-word"> <h2>“People ignore design that ignores people.” - Frank Chimero</h2> </div>
-        </footer>
 
-     </section>
+	</body>
 
-</html>
+	<footer>
+        	<div class = "last-word" content="width=device-width"> 
+        		<h2>“People ignore design that ignores people.” - Frank Chimero</h2> 
+        	</div>
+    </footer>
